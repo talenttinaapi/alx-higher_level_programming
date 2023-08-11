@@ -27,21 +27,6 @@ Prototypes for functions written in this project:
 | `11-delete_at.py`                  | `def delete_at(my_list=[], idx=0):`            |
 | `100-print_python_list_info.c`     | `void print_python_list_info(PyObject *p);`    |
 
-## Tasks :page_with_curl:
-
-* **0. Print a list of integers**
-  * [0-print_list_integer.py](./0-print_list_integer.py): Python function that prints all
-  integers of a list, one per line.
-  * Without importing modules or casting integers into strings.
-
-* **1. Secure access to an element in a list**
-  * [1-element_at.py](./1-element_at.py): Python function that retrieves an element
-  from a list.
-  * If `idx` is negative or out of range (greater than the number of elements in
-  `my_list`), the function returns `None`.
-  * Without import modules or using `try/except`.
-
-* **2. Replace element**
   * [2-replace_in_list.py](./2-replace_in_list.py): Python function that replaces an element
   of a list at a specific position.
   * If `idx` is negative or out of range (greater than the number of elements
